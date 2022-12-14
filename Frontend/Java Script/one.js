@@ -1,2 +1,2 @@
-var ename=venu
+var ename='venu'
 console.log(ename)
