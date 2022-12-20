@@ -71,3 +71,64 @@ else{
 //ternary
 c>d && c>e ? console.log(`${c}is the largest number`):d>c && d>e ? console.log(`${d}is the largest number`):(e>c && e>d) 
 ? console.log(`${e}is the largest number`):console.log('There is no largest number') // ternary operator
+
+  
+//11 program to print given three numbers in ascending numbers.
+
+let arr=[20,44,10,5,45,-7,-11]
+arr.sort((a,b)=> a-b);
+console.log(arr);
+//12 program to print given 3 numbers in descending order.
+let arr1=[20,44,10,5,45,-7,-11]
+arr1.sort((a,b)=> b-a);
+console.log(arr1);
+//13 Program to find the largest of 3 numbers.
+let alpha1 = 10
+let alpha2 = 10
+let alpha3 = 10
+let largest= Math.max(alpha1,alpha2,alpha3)
+console.log(largest);
+//While loop and for loop
+
+//1 program to print 1 to 10 numbers using while loop
+
+let i=1;
+while(i<=10){
+    console.log(i);
+    i++
+}
+
+//2 program to print 10 to 1 using while loop  //10 9 8 7 6 5 4 3 2 1
+let j=10;
+while(j>0){
+    console.log(j);
+    j=j-1
+}
+//3 print 5 to 15 numbers using for loop 
+for(k=5;k<=15;k++){
+    console.log(k);
+}
+//4 print 15 to 5 numbers using for loop 
+for(l=15;l>=5;l--){
+    console.log(l);
+}
+//5 print 1 to 10 even numbers using while loop 
+for(m=2;m<=10;m=m+2){
+console.log(m);
+}
+//6 print 1 to 10 odd numbers  using for loop 1 3 5 7 9
+for(n=1;n<=9;n=n+2){
+    console.log(n);
+}
+//7 print first 10 multiples of 4 using while loop 
+let o=4;
+while(o<=16){
+    console.log(o);
+    o=o+4
+}
+ // 
+
+ for(p=4;p<19;p=p+4){
+    console.log("4*",p,"=",4*p);
+ }
+ // program to print reverse of digits of number
