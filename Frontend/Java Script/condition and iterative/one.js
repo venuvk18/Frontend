@@ -109,10 +109,10 @@ for(k=5;k<=15;k++){
     console.log(k);
 }
 //4 print 15 to 5 numbers using for loop 
-for(l=15;l>=5;l--){
-    console.log(l);
+for(aza=15;aza>=5;aza--){
+    console.log(aza);
 }
-//5 print 1 to 10 even numbers using while loop 
+//5 print 1 to 10 even numbers using while loop  2 4 6 8 10
 for(m=2;m<=10;m=m+2){
 console.log(m);
 }
@@ -132,3 +132,70 @@ while(o<=16){
     console.log("4*",p,"=",4*p);
  }
  // program to print reverse of digits of number
+let ab = 10
+let cd = 30
+let ef = 70
+
+console.log(Math.max);
+
+
+for(p=4;p<19;p=p+4){
+    console.log("4*",p,"=",4*p)
+}
+
+// 50. Write a program to print 1 to 10 numbers using a do while loop
+ let q=1;
+ do{
+    console.log(q);
+    q++
+ } while(q<=10)
+
+ // Write a program to print 1 to 10 even numbers using a do while loop
+ let w=2
+ do{
+    console.log(w);
+    w=w+2
+ }while(w<11)
+ // Write a program to print a multiplication table of 6 using a while loop 6 ... 60
+ //6*1=6...60,6*2=12,6*3=18
+ 
+ let l=6
+ let m1=1 
+ while(l<=60){
+    console.log('6*',m1,'=',l);
+    l=l+6
+    m1++
+
+ }
+ // Write a program Factors of 24 using while loop (Factors of 24 are 1,3, 4, 6, 12, 24)
+
+ let arr3=[1,3,4,6,12,24]
+ let v=0
+ //        0 1 2 3 4 5 
+ while(arr3<=24){
+    console.log(arr3);
+    
+ }
+
+ // Write a program Factors of 24 using while loop(Factors of 24 are 1, ,3, 4, 6, 12, 24)
+
+  let ak=1
+  while(ak<=24){
+    if(24%ak===0){
+        console.log(`${ak} is multiple of 24`);
+
+    }
+        ak=ak+1
+  }
+// reverse a number
+//  Math.floor==>rounds a number DOWN to the nearest integer.    
+let num3 = 12345
+let rev = 0
+
+
+while(num3 > 0){
+    rem = num%10
+    rev = rev * 10 + rem
+    num = Math.floor(num3/10)
+}
+
