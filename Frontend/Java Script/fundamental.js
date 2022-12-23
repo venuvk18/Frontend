@@ -45,6 +45,14 @@ delete biodata1.age
 console.log(biodata1)
 
 
+//Fibonacci 0 1 1 2 3 5 8 13 ....
+let a1=0 , b1=1
+for(let i=0;i<=10;i++){
+    console.log(temp);
+    let temp=a1+b1
+    a1=b1
+    b1=temp
+}
 
 
 

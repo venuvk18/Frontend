@@ -188,14 +188,17 @@ for(p=4;p<19;p=p+4){
         ak=ak+1
   }
 // reverse a number
-//  Math.floor==>rounds a number DOWN to the nearest integer.    
-let num3 = 12345
-let rev = 0
+let arr4= ['Venu','shivani','akhila'];
+console.log(arr4.reverse());
 
-
-while(num3 > 0){
-    rem = num%10
-    rev = rev * 10 + rem
-    num = Math.floor(num3/10)
+//wap to read 5 numbers and print only even numbers
+ //
+//Fibonacci 0 1 1 2 3 5 8 13 ....
+let a1=0 , b1=1
+for(let i=0;i<=10;i++){
+    
+    let temp=a1+b1
+    console.log(temp);
+    a1=b1
+    b1=temp
 }
-
