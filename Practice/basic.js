@@ -65,7 +65,7 @@ the program will display a message "Good Work" otherwise display a message "Not 
 let secNum=Math.trunc(Math.random)*10
 let data = prompt('guess a number');
 if(secNum==data)
-    console.log('Good work');
+    console.log('Good work man');
 else
     console.log('Not Matched');
     
