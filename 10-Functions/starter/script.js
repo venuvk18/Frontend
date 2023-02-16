@@ -38,5 +38,3 @@ let poll ={
     registerNewAnswer: function(){
       const answer = prompt(`$(this.question)`)
     }
-
-    
